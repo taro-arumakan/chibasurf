@@ -57,9 +57,9 @@
   <script>
     function set_string(data, node){
       if(node.id.split('_')[1] in data){
-        node.textContent = data[node.id.split('_')[1]].replaceAll('\n', '<br>');
+        node.innerHTML = data[node.id.split('_')[1]].replace('\n', '<br>\n');
       } else {
-        node.textContent = '';
+        node.innerHTML = '';
       }
     }
     function load_language(lang) {
