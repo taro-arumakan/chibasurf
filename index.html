@@ -1,0 +1,927 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="2020년 도쿄올림픽부터 서핑은 정식종목이 되었습니다.그리고, 서핑은 자연을 이용하는 스포츠입니다.따라서, 개최장소가되는 곳은 퀄리티가 높은 파도가 있는곳에서 이루어지며,치바에는 퀄리티높은 파도가 항상 있기때문에, 서핑 시합 장소로 선택되었습니다.치바는 일본 뿐 아니라, 세계적으로 봤을때도 월드클래스의 파도가 잘 들어옵니다.그날 들어오는 파도 와 바람 에 따라,맞는 포인트로 이동하여 즐길수 있습니다.치바의 좋은 파도를 만끽하려면 경험과 지식이 필요합니다." />
+  <meta name="keywords" content="서핑,레벨업서핑,일본서핑,치바서핑,도쿄서핑,프로서퍼강습,이치노미야서핑,도쿄올림픽" />
+  <title>Chiba Surf -QUICK SURF TRIP- / 치바서프</title>
+  <meta property="og:title" content="Chiba Surf -QUICK SURF TRIP- / 치바서프">
+  <meta property="og:description"
+    content="2020년 도쿄올림픽부터 서핑은 정식종목이 되었습니다.그리고, 서핑은 자연을 이용하는 스포츠입니다.따라서, 개최장소가되는 곳은 퀄리티가 높은 파도가 있는곳에서 이루어지며,치바에는 퀄리티높은 파도가 항상 있기때문에, 서핑 시합 장소로 선택되었습니다.치바는 일본 뿐 아니라, 세계적으로 봤을때도 월드클래스의 파도가 잘 들어옵니다.그날 들어오는 파도 와 바람 에 따라,맞는 포인트로 이동하여 즐길수 있습니다.치바의 좋은 파도를 만끽하려면 경험과 지식이 필요합니다.">
+
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <meta name="apple-mobile-web-app-title" content="Chiba Surf" />
+  <link rel="apple-touch-icon-precomposed apple-touch-icon" href="http://chibasurf.jp/apple-touch-icon.png" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- window height -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      hsize = $(window).height();
+      $("#mainImage").css("min-height", hsize + "px");
+    });
+  </script>
+
+  <!-- * ---------- mailform ---------- * -->
+  <link rel="stylesheet" type="text/css" href="assets/mailform/css/mailform.css" />
+
+  <!-- * ---------- PhotoSwipe ---------- * -->
+  <link rel="stylesheet" href="assets/PhotoSwipe/js/photoswipe/photoswipe.css" />
+  <script src="assets/PhotoSwipe/js/photoswipe/jquery.photoswipe.js"></script>
+  <script>
+    (function ($) {
+      $(function () {
+        $('a.swipe').photoSwipe();
+      });
+    })(jQuery);
+  </script>
+
+  <!-- * ---------- jQuery 追記 ---------- * -->
+  <script>
+    $(document).ready(function () {
+      $(".navbar-nav li a").click(function (event) {
+        $(".navbar-collapse").collapse('hide');
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <!-- * ---------- preloader ---------- * -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+      </div>
+    </div>
+    <!-- * ---------- /preloader ---------- * -->
+
+    <!-- * ---------- home ---------- * -->
+    <section id="home">
+      <div class="pattern"></div>
+      <div id="logo"><img src="images/catch.png" width="100%"></div>
+      <div id="mainImage">
+        <div id="maximage_pc" class="sp_none">
+          <img src="images/image01.jpg" width="1000" height="664" />
+          <img src="images/image02.jpg" width="1000" height="664" />
+          <img src="images/image03.jpg" width="1000" height="664" />
+          <img src="images/image04.jpg" width="1000" height="664" />
+        </div>
+        <div id="maximage_sp" class="pc_none">
+          <img src="images/image01_sp.jpg" width="500" height="750" />
+          <img src="images/image02_sp.jpg" width="500" height="750" />
+          <img src="images/image03_sp.jpg" width="500" height="750" />
+          <img src="images/image04_sp.jpg" width="500" height="750" />
+        </div>
+      </div>
+      <div class="mouse-icon">
+        <div class="wheel"></div>
+      </div>
+    </section>
+    <!-- * ---------- /home ---------- * -->
+
+    <!-- * ---------- header ---------- * -->
+    <header class="header">
+      <nav class="navbar navbar-custom" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse"> <span
+                class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span> </button>
+            <a class="navbar-brand font-bold" href="index.html">CHIBA SURF</a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right font-bold">
+              <li><a href="#home"></a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#camp">CAMP</a></li>
+              <li><a href="#program">PROGRAM</a></li>
+              <li><a href="#member">MEMBER</a></li>
+              <li><a href="#price">PRICE</a></li>
+              <li><a href="#hotel">HOTEL</a></li>
+              <li><a href="#company">COMPANY</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+              <li><a href="https://www.instagram.com/chiba_surf/" target="_blank"><img src="images/icon_insta.png"
+                    width="100%" class="icon sp_none"><span class="pc_none">INSTAGRAM</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- * ---------- /header ---------- * -->
+
+    <!-- * ---------- about ---------- * -->
+    <section id="about" class="module module-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="module-header wow fadeInUp">
+              <div class="wow fadeInUp mb80">
+                <h2>
+                  JAPAN 치바에서 서핑을 즐기려면<br>
+                  Chiba surf camp
+                </h2>
+                <br>
+                <p class="font_left" id="about-text">
+                  2020년 도쿄올림픽부터 서핑은 정식종목이 되었습니다.<br>
+                  그리고, 서핑은 자연을 이용하는 스포츠입니다.<br>
+                  따라서, 개최장소가되는 곳은 퀄리티가 높은 파도가 있는곳에서 이루어지며,치바에는<br>
+                  퀄리티높은 파도가 항상 있기때문에, 서핑 시합 장소로 선택되었습니다.<br>
+                  치바는 일본 뿐 아니라, 세계적으로 봤을때도 월드클래스의 파도가 잘 들어옵니다.<br>
+                  그날 들어오는 파도 와 바람 에 따라,맞는 포인트로 이동하여 즐길수 있습니다.<br>
+                  치바의 좋은 파도를 만끽하려면 경험과 지식이 필요합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="aboutArea">
+          <div class="row wow fadeInUp">
+            <div class="child">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/hNJSVCuBZW8?rel=0&amp;showinfo=0"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="child">
+              <div class="text">
+                <p class="ttl">치바에는 항상 일정한 파도가 있습니다.</p>
+                <p>치바는 태평양 의 파도가 들어오는 곳에, <br>
+                  위치해있기때문에 파도의 SWELL 를 캐치하기 쉬운 환경입니다.<br>
+                  또한 해안의 방향도 다양하기때문에 어디서든 파도가 갈라져있을 확률이 매우 높으며, <br>
+                  경험과 지식만 있으면 좋은파도에서 서핑을 할 수 있습니다.<br>
+                  도쿄올림픽에서 정식종목이된 서핑의 개최장소로 선출된것만봐도 치바의 파도의 높은 퀄리티를 알 수 있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row wow fadeInUp">
+            <div class="child pc_none">
+              <img src="images/about_02.png" width="100%">
+            </div>
+            <div class="child">
+              <div class="text">
+                <p class="ttl">그날의 그파도에 맞춘스타일로</p>
+                <p>서핑은 파도위를 미끄러지는 스포츠 입니다.<br>
+                  모든 바다 에서는 쇼보드 와 롱보드를 즐길수 있습니다.<br>
+                  그날의 파도와 맞는 서프보드로 파도를 최대한 즐기는 서핑 스타일을 저희가 도와드립니다.<br>
+                  물론 잘 타기위해선 서퍼의 센스 도 중요하지만 무엇보다, 서핑은 즐기기 위해선,안전하고 행복 하게 서핑 하는것입니다.
+                </p>
+              </div>
+            </div>
+            <div class="child sp_none">
+              <img src="images/about_02.png" width="100%">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- * ---------- /about ---------- * -->
+
+    <!-- * ---------- camp ---------- * -->
+    <div id="camp" class="campAreaTtl wow fadeInUp">
+      <img src="images/camp_image.png" width="100%" class="sp_none">
+      <img src="images/camp_image_sp.png" width="100%" class="pc_none">
+    </div>
+    <section class="module module-white">
+      <div class="container campArea">
+        <div class="row">
+          <p>2017년부터 시작된 chiba surf 서핑캠프는 이미 많은 캠퍼들을 통해입증된 프로그램으로,<br>
+            여러분이 더 즐겁게 서핑을 하실 수 있도록 도와드리는 최고의 레벨업 프로그램입니다. <br>
+            chiba surf 는 JPSA 일본 프로 서퍼들과 서핑캠프가 진행됩니다.<br>
+            매일 바뀌는 챠트에 파도가 올까 안 올까 걱정할 필요가 없습니다.<br>
+            치바 포인트는 초급자부터 중상급자까지 실력에 따라 파도 선택이 가능할 만큼 다양한 포인트들이 있습니다. <br>
+            서핑은 패들하고 보드 위에 앉아 있는다고 늘지 않습니다. <br>
+            파도를 타고 보드 위에 일어나 있는 시간이 많아져야 비로소 레벨업 되는 스포츠입니다.<br>
+            실력있는 강사진,  체계적인 서핑관리 시스템과 풍부한 서핑교육 경험을 바탕으로 여러분을 실력있는 서퍼로 만들어 드립니다.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- * ---------- camp ---------- * -->
+
+    <!-- * ---------- program ---------- * -->
+    <section id="program" class="module module-gray">
+      <div class="container">
+        <div class="row">
+          <div class="module-header wow fadeInUp">
+            <h2 class="mb10">PROGRAM</h2>
+            <h3 class="mb50">많은 서퍼들을 통해 입증 된 서핑 스킬업 프로그램</h3>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <img src="images/program_01.png" width="100%" class="sp_none"><img src="images/program_01_sp.png" width="100%"
+            class="pc_none"><br>
+          <br>
+          <img src="images/program_02.png" width="100%" class="sp_none"><img src="images/program_02_sp.png" width="100%"
+            class="pc_none">
+        </div>
+      </div>
+    </section>
+    <!-- * ---------- /program ---------- * -->
+
+    <!-- * ---------- member ---------- * -->
+    <section id="member" class="module module-white">
+      <div class="container">
+        <div class="row">
+          <div class="module-header wow fadeInUp">
+            <h2 class="mb10">MEMBER</h2>
+            <h3 class="mb50">치바서프 프로 라이더</h3>
+          </div>
+        </div>
+
+        <div class="memberArea">
+          <div class="left wow fadeInUp">
+            <img src="images/logo_jpsa.png" width="100%">
+            <p class="text1">JPSA / Japan Pro Surfing Association</p>
+            <p class="text2">일본프로서 핑협회</p>
+            <img src="images/logo_nsa.png" width="100%">
+            <p class="text1">NSA / Nippon Surfing Association</p>
+            <p class="text2">일본서핑협회</p>
+          </div>
+          <div class="right wow fadeInUp">
+            <img src="images/member_image.png" width="100%" class="sp_none">
+            <img src="images/member_image_sp.png" width="100%" class="pc_none">
+            <div class="text">
+              <p class="ttl">CHIBASURF 의 프로서퍼소개</p>
+              <p>치바에서 서핑을 즐기는 일본 서핑협회<br>
+                JPSA 프로서퍼 멤버들로 캠프가<br>
+                진행됩니다<br>
+                그날에 컨디션 「바람,파도」 에 따라 다양한 스타일로 즐길수 있는 방법을<br>
+                가이드 합니다.<br>
+                <br class="sp_none">
+                NSA 일본 아마츄어 서핑협회로서 여기서<br>
+                우승하게 되면 JPSA 로 승격,등록할수<br>
+                있는 자격이 주어집니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="playerArea row wow fadeInUp">
+          <div class="ttl">
+            <p class="name">YUKI NAKAYAMA / 中山 祐樹</p>
+            <p><a href="https://www.instagram.com/30_yuki/" target="_blank">https://www.instagram.com/30_yuki/</a></p>
+          </div>
+          <div class="row">
+            <div class="left">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/_zjK7nwTCdc?rel=0&amp;showinfo=0"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <p>2009년<br>
+                전 일본 선수권 2위 / 그랜드 챔피언 게임즈 우승 / 연간 랭킹 2위<br>
+                2010년<br>
+                전 일본 선수권 우승 / 그랜드 챔피언 게임즈 3위 / 연간 랭킹 2위<br>
+                2012년<br>
+                종목별 선수권 우승 / 전 일본 선수권 2위 / 그랜드 챔피언 게임즈 2위 / 연간 랭킹 1위<br>
+                2013년<br>
+                종목별 선수권 우승 / 그랜드 챔피언 게임즈 3위<br>
+                <br>
+                2010년・2011년・2013년<br>
+                일본 대표 ISA출전<br>
+                <br>
+                2017년 프로 전향<br>
+                Tickety ALLJAPANPRO5위 / 랭킹 25위
+              </p>
+            </div>
+          </div>
+          <div class="photoArea">
+            <ul>
+              <li><img src="images/player/nakayama/01.jpg" width="100%"></li>
+              <li><img src="images/player/nakayama/02.jpg" width="100%"></li>
+              <li><img src="images/player/nakayama/03.jpg" width="100%"></li>
+              <li><img src="images/player/nakayama/04.jpg" width="100%"></li>
+              <li><img src="images/player/nakayama/05.jpg" width="100%"></li>
+              <li><img src="images/player/nakayama/06.jpg" width="100%"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="playerArea row wow fadeInUp">
+          <div class="ttl">
+            <p class="name">SOUICHIRO YUKI / 幸 総一郎</p>
+            <p><a href="https://www.instagram.com/souichiro_yuki/"
+                target="_blank">https://www.instagram.com/souichiro_yuki/</a></p>
+          </div>
+          <div class="row">
+            <div class="left">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YgvScTXGunM?rel=0&amp;showinfo=0"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <p>2013년<br>
+                VQS SASHIMI U-18우승<br>
+                2013년<br>
+                Billabong Surfing Games 도요 마치 서핑 선수권 U-18우승<br>
+                2015년<br>
+                Billabong Surfing Games 도요 마치 서핑 선수권 Men우승<br>
+                2015년<br>
+                JPSA프로 자격증 취득
+              </p>
+            </div>
+          </div>
+          <div class="photoArea">
+            <ul>
+              <li><img src="images/player/yuki/01.jpg" width="100%"></li>
+              <li><img src="images/player/yuki/02.jpg" width="100%"></li>
+              <li><img src="images/player/yuki/03.jpg" width="100%"></li>
+              <li><img src="images/player/yuki/04.jpg" width="100%"></li>
+              <li><img src="images/player/yuki/05.jpg" width="100%"></li>
+              <li><img src="images/player/yuki/06.jpg" width="100%"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="playerArea row wow fadeInUp">
+          <div class="ttl">
+            <p class="name">TOMONORI KIMIZUKA / 君塚 友規</p>
+            <p><a href="https://www.instagram.com/takers_tomo/"
+                target="_blank">https://www.instagram.com/takers_tomo/</a></p>
+          </div>
+          <div class="row">
+            <div class="left">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/C8345ysVez4?rel=0&amp;showinfo=0"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <p>치바에서 태어나 5세 부터 서핑시작.<br>
+                숏보드,롱보드.미드랭스 를 다 즐기는<br>
+                자기만의 스타일을 추구하는 서퍼.<br>
+                시다시타 (올림픽이 열리는해변) / 타이토 로컬.<br>
+                jpsa 일본 프로 서퍼.
+              </p>
+            </div>
+          </div>
+          <div class="photoArea">
+            <ul>
+              <li><img src="images/player/kimizuka/01.jpg" width="100%"></li>
+              <li><img src="images/player/kimizuka/02.jpg" width="100%"></li>
+              <li><img src="images/player/kimizuka/03.jpg" width="100%"></li>
+              <li><img src="images/player/kimizuka/04.jpg" width="100%"></li>
+              <li><img src="images/player/kimizuka/05.jpg" width="100%"></li>
+              <li><img src="images/player/kimizuka/06.jpg" width="100%"></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- * ---------- /member ---------- * -->
+
+    <!-- * ---------- program ---------- * -->
+    <section id="price" class="module module-gray">
+      <div class="container">
+        <div class="row">
+          <div class="module-header wow fadeInUp">
+            <h2 class="mb10">PRICE</h2>
+            <h3 class="mb50">캠프요금</h3>
+          </div>
+        </div>
+
+        <div class="priceArea01 wow fadeInUp">
+          서핑캠프는 예약/선입금으로 운영됩니다. 서핑캠프가 시작되는 날짜 최소 7일전까지 입금을 해주셔야 캠프에<br>
+          참가하시는 분의 스케쥴 추가가 원활히 진행됩니다. <br>
+          캠프 일정 7일전까지 취소를 원하시면 언제든 취소가 가능하니 방법은 참고해주세요.<br>
+          <br>
+          환불규정<br>
+          7일전 / 100% 환불<br>
+          1~6일취소 / 50% 환불<br>
+          당일취소 / 환불불가<br>
+          <br>
+          개인사정으로 인하여 날짜변경을 원하시면 5일전에 말씀해주시면 기간은 날짜변경 가능합니다.「1회가능」<br>
+          예약을 하실때는 신중하게 생각하시고, 예약 부탁 드립니다.<br>
+          프로서퍼 의 스케쥴과 픽업,방 스케쥴을 저희 캠프도 준비 해야 하므로,환불규정을 정한점 참고 부탁드립니다.
+        </div>
+
+        <div class="priceArea02 wow fadeInUp">
+          <div class="right">
+            <a href="http://blog.naver.com/namaesurf" target="_blank"><img src="images/logo_namae.png" width="100%"></a>
+          </div>
+          <div class="left">
+            전화번호 : 김병재 010-2559-3601, 033-671-3601<br>
+            <br>
+            카카오톡 ID : pororoboss78<br>
+            <br>
+            블로그 : <a href="http://blog.naver.com/namaesurf" target="_blank">http://blog.naver.com/namaesurf</a><br>
+            <br>
+            인스타그램 : <a href="https://www.instagram.com/namaesurf/"
+              target="_blank">https://www.instagram.com/namaesurf</a><br>
+            <br>
+            페이스북 : <a href="https://www.facebook.com/championkbj">https://www.facebook.com/championkbj</a><br>
+            <br>
+            입금계좌 : 농협 352-12069016-83 김병재<br>
+            <br>
+            상담문의 : 카카오톡으로 연락 바랍니다.
+          </div>
+        </div>
+
+        <div class="ttl bg_blue wow fadeInUp">2일〜 캠프요금</div>
+
+        <div class="priceArea03 wow fadeInUp">
+          <div class="text1"><span class="st">2일캠프</span> 「2명」</div>
+          <div class="text2">
+            <span class="st">¥37,000 /</span> 2일<br>
+            2명・2일 이상부터 캠프신청 가능
+          </div>
+          <div class="text3">
+            3명캠프 – ¥32,000<br>
+            4명캠프 – ¥28,500
+          </div>
+        </div>
+
+        <div class="priceArea04 wow fadeInUp">
+          △포함내역<br>
+          ・ 전 일정 서핑강습「１일」<br>
+          레슨 1명　¥15,000<br>
+          레슨 2명　¥14,000<br>
+          레슨 3명　¥13,000<br>
+          레슨 4명　¥12,000<br>
+          ・ 오전 서핑 후 사진 / 영상을 통한 개인별 리뷰<br>
+          ・ 사진 및 동영상 개인 소장<br>
+          ・ 나리타 공항픽업 제공 (차 1대 / 4명 /서프보드 4대)<br>
+          치바 → 나리타<br>
+          편도 70Km / ¥8,000<br>
+          왕복 140Km / ¥16,000<br>
+          <br>
+          △캠프 취소 및 연기정책<br>
+          ・ 서핑캠프는 7일 전까지 연락 주시면 언제라도 취소 / 환불이 가능합니다. <br>
+          ・ 서핑캠프는 신청한 기간 내에서 쉬는 날이나 연기 없이 진행됩니다.<br>
+          <br>
+          △요금 불포함 내역<br>
+          ・ 숙박비　1박 1명 ¥5,000〜<br>
+          （숙박 내용은 아래를 참고해주세요)<br>
+          ・ 치바 주변의서프 숍에서 대여 이용료<br>
+          롱 보드 3천엔〜<br>
+          쇼트 보드 2천엔〜<br>
+          바디 보드 2천엔〜<br>
+          서핑슈트　2천엔〜<br>
+          ・ 항공료 : 인천 ー 나리타. 개인적으로 비행기 티켓구매<br>
+          ・ 식비 및 개인 기타비용<br>
+          ・ 해외여행자보험 (캠프 참석을 원하시는 분은 꼭 여행자보험을 가입하실 것을 권합니다.)<br>
+          ・ 여권 유효기간이 여행 개시일부터 6개월 이상 남아 있어야 합니다.<br>
+          ・ 캠프 요금과 일정은 상황에 따라 변경될 수 있습니다.
+        </div>
+
+      </div>
+    </section>
+    <!-- * ---------- /program ---------- * -->
+
+    <!-- * ---------- hotel ---------- * -->
+    <section id="hotel" class="module module-white">
+      <div class="container">
+        <div class="row">
+          <div class="module-header wow fadeInUp">
+            <h2 class="mb10">HOTEL</h2>
+            <h3 class="mb50">숙소안내</h3>
+          </div>
+        </div>
+        <div class="hoteltext wow fadeInUp">
+          <p class="text1">서프 트립을 토탈로 제안</p>
+          <p class="text2">치바서프 는 일본 서핑 을 행복하게 즐기고,파도 에 맞는 서핑을 도와드립니다.<br>
+            서핑 후 쾌적한 숙박시설 에서 휴식 을 취하고,맛있는 일본 전통 음식을 먹으며,<br>
+            치바서퍼 의 라이프 스타일을<br>
+            체험할수 있는 목적의 서프 가이드 입니다. <br>
+            치바 서프가이드에서는 서핑 후 지친몸을 편하게 쉴수 있는,쾌적한 숙박시설을 준비하였습니다.<br>
+            (걸어서 포인트까지 도보로 3~5분거리에 위치한 곳)<br>
+            서핑 후 식사는 이 지역에서만 맛볼 수 있는 신선한 해산물과 바베큐, 맛집 소개 등 <br>
+            로컬들만 아는 「맛있는」 식사를 제안 해 드립니다.
+          </p>
+        </div>
+
+
+        <div class="hotelArea row wow fadeInUp">
+          <div class="ttl">
+            <p class="name">TYPE 1</p>
+            <p class="font_blue font-bold">6명이상 8명까지 숙박가능</p>
+          </div>
+          <div class="row">
+            <div class="left">
+              <img src="images/hotel/type1/01.jpg" width="100%">
+            </div>
+            <div class="right">
+              <p>넓은 오픈 주방 25평의 넓은거실 큰 자쿠지(욕조) 1개샤워기3가 있어<br>
+                3명이 한번에 샤워가능합니다.<br>
+                야외 테라스 에서는BBQ도 가능합니다.<br>
+                리조트감 넘치는 홀리데이 하우스를 만끽하실수 있습니다.<br>
+                <br>
+                거실<br>
+                BBQ 공간<br>
+                실외 샤워<br>
+                실내 자쿠지(욕조) 목욕탕
+                ☆ BBQ세트, 자전거 대여 등<br>
+                는 유료입니다. 분실, 파손된 경우 나중에 청구<br>
+                준비할것(포함되지 않습니다.) ● 칫솔 ● 수건류<br>
+                <br>
+                체크인 시간(15:00-20:00)<br>
+                체크 아웃 시간(15:00까지)+1시간마다　¥ 5000추가됩니다.
+              </p>
+            </div>
+          </div>
+          <div class="photoArea">
+            <ul>
+              <li style="display: none;"><a href="images/hotel/type1/01.jpg" class="swipe" rel="type1"><img
+                    src="images/hotel/type1/01.jpg" width="100%"></a></li>
+              <li><a href="images/hotel/type1/02.jpg" class="swipe" rel="type1"><img src="images/hotel/type1/02.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type1/03.jpg" class="swipe" rel="type1"><img src="images/hotel/type1/03.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type1/04.jpg" class="swipe" rel="type1"><img src="images/hotel/type1/04.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type1/05.jpg" class="swipe" rel="type1"><img src="images/hotel/type1/05.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type1/06.jpg" class="swipe" rel="type1"><img src="images/hotel/type1/06.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type1/07.jpg" class="swipe" rel="type1"><img src="images/hotel/type1/07.jpg"
+                    width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type1/08.jpg" class="swipe" rel="type1"><img
+                    src="images/hotel/type1/08.jpg" width="100%"></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hotelArea row wow fadeInUp">
+          <div class="ttl">
+            <p class="name">TYPE 2</p>
+            <p class="font_blue font-bold">4명이상 4명까지 숙박가능</p>
+          </div>
+          <div class="row">
+            <div class="left">
+              <img src="images/hotel/type2/01.jpg" width="100%">
+            </div>
+            <div class="right">
+              <p>현대적인 비치 하우스에서 멋진 휴가를 보내세요.<br>
+                <br>
+                침실에는 쾌적한 더블 침대 or 두개의 싱글 사이즈의 이불도 준비되어<br>
+                있습니다.<br>
+                4명까지 숙박할수 있으므로 가족이나 단체 캠프에 맞습니다.<br>
+                건조가능세탁기, TV, 필수품, WiFi,<br>
+                무료 주차 공간도 포함되어 있습니다. <br>
+                <br>
+                준비할것(포함되지 않습니다.) ● 칫솔 ● 수건류<br>
+                <br>
+                체크인 시간(15:00-20:00)<br>
+                체크 아웃 시간(15:00까지)+1시간마다　¥ 5000추가됩니다.
+              </p>
+            </div>
+          </div>
+          <div class="photoArea">
+            <ul>
+              <li style="display: none;"><a href="images/hotel/type2/01.jpg" class="swipe" rel="type2"><img
+                    src="images/hotel/type2/01.jpg" width="100%"></a></li>
+              <li><a href="images/hotel/type2/02.jpg" class="swipe" rel="type2"><img src="images/hotel/type2/02.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type2/03.jpg" class="swipe" rel="type2"><img src="images/hotel/type2/03.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type2/04.jpg" class="swipe" rel="type2"><img src="images/hotel/type2/04.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type2/05.jpg" class="swipe" rel="type2"><img src="images/hotel/type2/05.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type2/06.jpg" class="swipe" rel="type2"><img src="images/hotel/type2/06.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type2/07.jpg" class="swipe" rel="type2"><img src="images/hotel/type2/07.jpg"
+                    width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type2/08.jpg" class="swipe" rel="type2"><img
+                    src="images/hotel/type2/08.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type2/09.jpg" class="swipe" rel="type2"><img
+                    src="images/hotel/type2/09.jpg" width="100%"></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hotelArea row wow fadeInUp">
+          <div class="ttl">
+            <p class="name">TYPE 3</p>
+            <p class="font_blue font-bold">2명이상 숙박가능</p>
+          </div>
+          <div class="row">
+            <div class="left">
+              <img src="images/hotel/type3/01.jpg" width="100%">
+            </div>
+            <div class="right">
+              <p class="st">ROOM</p>
+              <p>3베드 룸×7방 / 2베드 룸×1방 / 5베드 룸×1방<br>
+                의 전 9방<br>
+                아늑한 분위기의 실내.<br>
+                <br>
+                각 방 완비<br>
+                ● 화장실 ● 텔레비전 ● 에어컨<br>
+                ● 드라이어 ● 세면대 ● FREE Wifi<br>
+                욕실어메니티<br>
+                ● 샴푸 ● 보디 샴푸<br>
+                준비할것 (포함되지 않습니다.) <br>
+                ● 칫솔 ● 수건류
+              </p>
+            </div>
+          </div>
+          <div class="photoArea">
+            <ul>
+              <li style="display: none;"><a href="images/hotel/type3/01.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/01.jpg" width="100%"></a></li>
+              <li><a href="images/hotel/type3/02.jpg" class="swipe" rel="type3"><img src="images/hotel/type3/02.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type3/03.jpg" class="swipe" rel="type3"><img src="images/hotel/type3/03.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type3/04.jpg" class="swipe" rel="type3"><img src="images/hotel/type3/04.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type3/05.jpg" class="swipe" rel="type3"><img src="images/hotel/type3/05.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type3/06.jpg" class="swipe" rel="type3"><img src="images/hotel/type3/06.jpg"
+                    width="100%"></a></li>
+              <li><a href="images/hotel/type3/07.jpg" class="swipe" rel="type3"><img src="images/hotel/type3/07.jpg"
+                    width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/08.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/08.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/09.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/09.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/10.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/10.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/11.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/11.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/12.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/12.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/13.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/13.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/14.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/14.jpg" width="100%"></a></li>
+              <li style="display: none;"><a href="images/hotel/type3/15.jpg" class="swipe" rel="type3"><img
+                    src="images/hotel/type3/15.jpg" width="100%"></a></li>
+            </ul>
+          </div>
+
+          <div class="type3Area wow fadeInUp">
+            <ul>
+              <li>
+                <p class="st">FREE SPACE</p>
+                <p>외 1층에 있는 실내&옥외 공간.<br>
+                  실내 공간에는 냉장고, 전자 레인지, 온수 포트, 50인치 텔레비전이 설치. 체크 아웃 시간까지 이용할 수 있습니다.<br>
+                  심야 이용 시간은 22:00로 되어 있습니다.<br>
+                  <br>
+                  옥외 공간에선 햇볕이 잘들어 잔디 위나 해먹에서 여유로운 시간과 독서를 같은 것도 좋답니다..<br>
+                  <br>
+                  밤은 야자수가 부드러운 조명된 무드가 넘치는 분위기도 즐길 수 있습니다.
+                </p>
+              </li>
+              <li>
+                <p class="st">BATH ROOM</p>
+                <p>관내에는 3~5명 이용 타입과 2~3명 타입의 2개의 목욕탕이 준비되어 있습니다.<br>
+                  안쪽 에서 열쇠를 잠그시면 (가족들 목욕이나 커플)로 이용 가능하십니다.<br>
+                  실내의 블라인드를 열면 별이 가득한 하늘.<br>
+                  방울 벌레 소리를 들으면서, 목욕할 수 있습니다.<br>
+                  (노천탕)<br>
+                  <br>
+                  이용 시간<br>
+                  ● 욕조에서 이용시간 18:00~22:00<br>
+                  ● 샤워만 이용 24시간(체크 아웃 당일 10:00까지)
+                </p>
+              </li>
+              <li>
+                <p class="st">OUTDOOR SHOWER</p>
+                <p>야외 샤워와 실내 온수 샤워가 설치되어 있습니다.<br>
+                  투숙자께서는 체크인일~체크 아웃 날까지 모두 무료로 사용할 수 있습니다.<br>
+                  <br>
+                  바다에 들어간 뒤간단하게 샤워!<br>
+                  여름 야외 샤워,실내 온수 샤워가능.
+                </p>
+              </li>
+              <li>
+                <p class="st">SURF SHOP</p>
+                <p>부지 내에는 서프숍이 병설되어 있습니다.<br>
+                  장비가 없어도안심 ♪ 왁스,리슈코드는 물론.<br>
+                  슈트,보드 오더도 ♪ <br>
+                  <br>
+                  보드와 슈트의 렌탈<br>
+                  ・서프 보드 대여 / 3.000엔<br>
+                  ・슈트 대여 / 2.000엔<br>
+                  <br>
+                  캠프 참가자는 상기 가격보다 20%OFF 이용 가능합니다.<br>
+                  <br>
+                  영업 시간　9:00 ~ 19:00
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- * ---------- /member ---------- * -->
+
+    <!-- company start -->
+    <section id="company" class="module module-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="module-header wow fadeInUp">
+              <h2 class="mb10">Company</h2>
+              <h3 class="mb50">회사</h3>
+            </div>
+          </div>
+        </div>
+        <!-- .row -->
+        <div class="row wow fadeInUp">
+          <div class="col-sm-12 col-md-6 col-md-offset-3">
+            <div class="col-sm-12 col-md-2">
+              <div class="ttl">
+                <p>회사명</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-10">
+              <div class="detail">
+                <p>CATALDESIGN inc.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="ttl">
+                <p>소재지</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-10">
+              <div class="detail">
+                <p>東京都渋谷区渋谷一丁目20-11 #604</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="ttl">
+                <p>URL</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-10">
+              <div class="detail">
+                <p><a href="http://catal.co.jp" target="_blank">http://catal.co.jp</a></p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="ttl">
+                <p>담당자</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-10">
+              <div class="detail">
+                <p>太田キョンタク</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="ttl">
+                <p>line</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-10">
+              <div class="detail">
+                <p><a href="http://line.naver.jp/ti/p/7E8RayUuJz"
+                    target="_blank">http://line.naver.jp/ti/p/7E8RayUuJz</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .row -->
+      </div>
+      <!-- .contaier -->
+    </section>
+    <!-- company end -->
+
+    <!-- * ---------- googlemap ---------- * -->
+    <section id="map-section">
+      <div id="map"></div>
+    </section>
+    <!-- * ---------- /googlemap ---------- * -->
+
+    <!-- * ---------- contact ---------- * -->
+    <section id="contact" class="module module-white">
+      <div class="container">
+        <div class="row wow fadeInUp">
+          <div class="col-sm-12">
+            <div class="module-header">
+              <h2 class="mb10">CONTACT</h2>
+              <h3 class="font_wh">접촉</h3>
+            </div>
+            <div class="row">
+              문의 내용 확인 후 담당자가 연락 드리겠습니다.
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <form action="assets/mailform/php/mailform.php" method="post" id="mail_form" class="wow fadeInUp">
+              <dl>
+                <dt>이름<span>Your Name</span></dt>
+                <dd class="required">
+                  <input type="text" id="name_1" name="name_1" value="" />
+                  <input type="text" id="name_2" name="name_2" value="" />
+                </dd>
+                <dt>이메일 주소<span>Mail Address</span></dt>
+                <dd class="required">
+                  <input type="email" id="mail_address" name="mail_address" value="" />
+                </dd>
+                <dt>이메일 주소(확인)<span>Mail Address Confirm</span></dt>
+                <dd class="required">
+                  <input type="email" id="mail_address_confirm" name="mail_address_confirm" value="" />
+                </dd>
+                <dt>전화 번호<span>Phone Number</span></dt>
+                <dd>
+                  <input type="tel" id="phone" name="phone" value="" />
+                </dd>
+                <dt>문의 내용<span>Mail Contents</span></dt>
+                <dd class="required">
+                  <textarea id="mail_contents" name="mail_contents" cols="40" rows="5"></textarea>
+                </dd>
+              </dl>
+              <p>
+                <input type="submit" id="mail_submit_button" name="mail_submit_button" value="Send Message" />
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- * ---------- /contact ---------- * -->
+
+    <!---------------- footer ---------------->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="copyright">© CHIBA SURF ALL RIGHTS RESERVED.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- * ---------- /contact ---------- * -->
+
+    <!-- Scroll-up -->
+    <div class="scroll-up"> <a href="#home"><i class="fa fa-chevron-up"></i></a></div>
+
+  </div>
+  <!-- * ---------- /wrapper ---------- * -->
+
+  <!-- Javascript files -->
+  <script src="assets/js/jquery-1.11.1.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/jquery.parallax-1.1.3.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/twitterFetcher.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjrAG1et6jpWXzZLDiLTfHdWyjJLcyK4Q"></script>
+  <script src="assets/js/gmaps.js"></script>
+
+  <script src="assets/js/custom_saito.js"></script>
+  <script src="assets/js/custom-shuffle-init.js"></script>
+
+  <script type="text/javascript" src="assets/mailform/js/mailform.js"></script>
+
+  <!-- フリガナ自動入力ライブラリ -->
+  <script type="text/javascript" src="assets/mailform/js/jquery.autoKana.js"></script>
+
+  <!-- 住所自動入力ライブラリ -->
+  <script type="text/javascript" src="assets/mailform/js/ajaxzip3.js"></script>
+
+  <!-- maximage -->
+  <link rel="stylesheet" href="assets/maximage/jquery.maximage.css" type="text/css" media="screen" charset="utf-8" />
+  <script src="assets/maximage/jquery.cycle.all.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="assets/maximage/jquery.maximage.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('#maximage_pc,#maximage_sp').maximage({
+        cycleOptions: {
+          speed: 1000,
+          timeout: 5000,
+        },
+      });
+    });
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115062518-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115062518-1');
+  </script>
+
+</body>
+
+</html>
