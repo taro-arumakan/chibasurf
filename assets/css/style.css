@@ -163,7 +163,9 @@ h3 {
 .bg_white{
 	background-color: #FFFFFF;
 }
-
+.bg_grey{
+	background-color: #a9a9a9a9;
+}
 @media (max-width: 767px) {
 	.font_left{
 		text-align: left !important;
@@ -850,8 +852,7 @@ opacity: 0;
 		width: 100%;
 		text-align: left;
 		background: #FFF;
-		padding: 50px;
-		margin-bottom: 50px;
+		padding: 20px;
 		box-sizing: border-box;
 		overflow: hidden;
 	}
@@ -898,7 +899,7 @@ opacity: 0;
 		font-size: 32px;
 	}
 	#price .priceArea04{
-		text-align: left;
+		text-align: center;
 		background: #FFF;
 		padding: 50px;
 	}
