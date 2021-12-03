@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+SiteGuard_User_ExcludeSig xss-try-6
